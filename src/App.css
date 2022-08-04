@@ -1,0 +1,55 @@
+.App{
+  min-height: 100vh;
+  padding: 15px;
+  background-image: linear-gradient(315deg,rgb(192, 246, 236),rgb(140, 203, 248));
+  /* text-align: center; */
+}
+.user{
+  display: flex;
+  flex-wrap: wrap;
+}
+.user_div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+.header{
+  height:100px;
+}
+.edit-container{
+  height: 100vh;
+  text-align: center;
+}
+.card_img{
+  height: 300px;
+}
+.toast{
+  position: absolute;
+  right:10px;
+  top:10px;
+  background-color: rgb(252, 109, 109);
+}
+
+.input_label{
+  width:100px;
+}
+.home_page{
+  text-align: center;
+}
+.edit_input_div{
+  /* margin-right: 5px; */
+  display: flex;
+  justify-content: space-between;
+}
+.edit_input{
+  /* align-items: center; */
+  text-align: left;align-content: start;
+}
+.create-user-div{
+  text-align: center;
+}
+.input_validation_error{
+  color:red;
+  font-size: 14px;
+}
